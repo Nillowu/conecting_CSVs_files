@@ -14,4 +14,4 @@ for file in files:
     data['filename'] = file
     combined = pandas.concat([combined, data])
 
-combined.to_csv('combined.csv', index=False, encoding='utf-8-sig')
+combined.to_csv('combined2.csv', index=False, encoding='utf-8-sig')
